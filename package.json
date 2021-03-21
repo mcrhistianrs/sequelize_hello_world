@@ -1,0 +1,17 @@
+{
+  "name": "sequelize_hello_world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "sucrase-node src/App.js"
+  },
+  "dependencies": {
+    "sequelize": "^6.5.1",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0",
+    "sucrase": "^3.17.1"
+  }
+}
